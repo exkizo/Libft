@@ -6,7 +6,7 @@
 /*   By: jocorrei <jocorrei@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/10/25 18:58:52 by jocorrei          #+#    #+#             */
-/*   Updated: 2021/10/25 18:58:52 by jocorrei         ###   ########.fr       */
+/*   Updated: 2021/11/03 18:30:07 by jocorrei         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 #ifndef LIBFT_H
@@ -26,6 +26,8 @@ int		ft_isalpha(int c);
 int		ft_isprint(int c);
 int		ft_isdigit(int c);
 int		ft_isalnum(int c);
+int		ft_isascii(int c);
+void	*ft_calloc(size_t num, size_t size);
 size_t	ft_strlen(const char *str);
 void	*ft_memset(void *dest, int val, size_t len);
 void	ft_bzero(void *s, size_t n);
@@ -37,6 +39,7 @@ int		ft_toupper(int c);
 int		ft_tolower(int c);
 char	*ft_strchr(const char *str, int c);
 char	*ft_strrchr(const char *str, int c);
+void	ft_lstiter(t_list *lst, void (*f)(void *));
 int		ft_strncmp(const char *str1, const char *str2, size_t n);
 void	*ft_memchr(const void *str, int c, size_t n);
 int		ft_memcmp(const void *str1, const void *str2, size_t n);

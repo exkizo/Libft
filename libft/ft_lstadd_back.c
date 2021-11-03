@@ -20,6 +20,6 @@ void	ft_lstadd_back(t_list **lst, t_list *new)
 	{
 		while (storage->next != NULL)
 			storage = storage->next;
-		storage->next = new;
+		storage.content = new;
 	}
 }
