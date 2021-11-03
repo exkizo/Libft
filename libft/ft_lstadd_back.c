@@ -15,11 +15,15 @@ void	ft_lstadd_back(t_list **lst, t_list *new)
 {
 	t_list	*storage;
 
-	storage = *lst;
-	if (lst && new)
+	if (lst)
 	{
-		while (storage->next != NULL)
-			storage = storage->next;
-		storage.content = new;
+		if (*lst == NULL)
+			*lst = new;
+		else
+		{
+			storage = ft_lstlast(*(lst));
+			storage->next = new;
+		}
 	}
+	return ;
 }
