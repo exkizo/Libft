@@ -22,15 +22,13 @@ void	*ft_memmove(void *dest, const void *src, size_t len)
 	s = src;
 	lasts = s + (len - 1);
 	lastd = d + (len - 1);
+	if(!dest && !src)
+		return (NULL);
 	if (d < s)
-	{
 		while (len--)
 			*d++ = *s++;
-	}
 	else
-	{
 		while (len--)
 			*lastd-- = *lasts--;
-	}
 	return (dest);
 }
