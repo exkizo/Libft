@@ -18,7 +18,7 @@ char	*ft_strtrim(char const *s1, char const *set)
 	char			*str;
 
 	str = (char *)s1;
-	if(*set == '\0')
+	if (*set == '\0')
 		return (ft_substr(s1, 0, ft_strlen(s1)));
 	if (ft_strlen(s1) <= 0)
 		return (ft_strdup(""));
