@@ -18,6 +18,7 @@ ft_strlen.</p>
      <li><a href="#">Link 1</a></li>
      <li><a href="#">Link 1</a></li> 
     </ul>
+    * [`ft_isascii`](libft/ft_isascii.c)
    <h3>#include ´´<string.h>´´</h3> 
     <ul>
     <li><a href="#">strlen</a></li>
