@@ -1,5 +1,5 @@
-# Libft42stuff
+# Libft
 
-This is my repository for the first 42 project as a student (Libft).
+This is my first project as a 42 student.
+The goal is to creat a C library that will help me in future projects.
 
-The goal is to creat a C library to help me in future projects.
