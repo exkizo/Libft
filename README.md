@@ -1,4 +1,4 @@
-### Libft
+# Libft
 
 <div>
   <h3>This is my first project as a 42 student. The goal is to creat a C library that will help me in future projects.</h3></div>
@@ -11,4 +11,4 @@ ft_strlen.</p>
 
 ## Part 1 - Libc functions
 
-# #Include `<stdio.h>`
+### #Include `<stdio.h>`
