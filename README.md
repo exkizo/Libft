@@ -42,8 +42,8 @@ libc, or included in a different form.
 * [`ft_substr`](Libft/ft_substr.c)        -allocates (with malloc(3)) and returns a substring from the string ’s’.
 * [`ft_strjoin`](Libft/ft_strjoin.c)      -allocates (with malloc(3)) and returns a new string, which is the result of the concatenation of ’s1’ and ’s2’.
 * [`ft_strtrim`](Libft/ft_strtrim.c)      -allocates memory and returns a copy of ’s1’ with the characters specified in ’set’ removed from the beginning and the end of the string.
-* [`ft_atoi`](Libft/ft_atoi.c)
-* [`ft_atoi`](Libft/ft_atoi.c)
+* [`ft_split`](Libft/ft_split)            -allocates (with malloc(3)) and returns an array of strings obtained by splitting ’s’ using the character ’c’ as a delimiter.
+* [`ft_itoa`](Libft/ft_itoa.c)            -allocates (with malloc(3)) and returns a string representing the integer received as an argument. Negative numbers must be handled.
 * [`ft_atoi`](Libft/ft_atoi.c)
 * [`ft_atoi`](Libft/ft_atoi.c)
 * [`ft_atoi`](Libft/ft_atoi.c)
