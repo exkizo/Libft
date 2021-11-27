@@ -6,3 +6,4 @@ manual. Your functions will need to present the same prototype and behaviors as 
 ft_strlen.</p>
 </div>
 ### #Include `<stdio.h>`
+* [`ft_isascii`](libft/srcs/is/ft_isascii.c)			- test for ASCII character.
