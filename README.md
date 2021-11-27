@@ -7,7 +7,7 @@
 man. Your functions will need to present the same prototype and behaviors as the originals. Your functions’ names must be prefixed by “ft_”. For instance strlen becomes
 ft_strlen.</p>
     <ul>
-      <a><li>isalpha<li></a>
+      <li><a>isalpha</a><li>
   </ul>
   
 </div>
