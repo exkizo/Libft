@@ -1,5 +1,8 @@
 # 42 Libft
 
+
+* [`ft_isascii`](libft/ft_isascii.c)
+
 <div><h3>This is my first project as a 42 student. The goal is to creat a C library that will help me in future projects.</h3></div>
 <div>
   <h1>Part 1 - Libc functions</h1>
@@ -18,7 +21,6 @@ ft_strlen.</p>
      <li><a href="#">Link 1</a></li>
      <li><a href="#">Link 1</a></li> 
     </ul>
-    * [`ft_isascii`](libft/ft_isascii.c)
    <h3>#include ´´<string.h>´´</h3> 
     <ul>
     <li><a href="#">strlen</a></li>
