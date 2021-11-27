@@ -35,3 +35,18 @@ ft_strlen.
 * [`ft_strdup`](Libft/ft_strdup.c)        -allocate memory for a given string using malloc
 * [`ft_calloc`](Libft/ft_calloc.c)        -allocate memory of n size and fill with '\0'
 
+## Part 2 - Additional functions
+In this second part, you must code a set of functions that are either not included in the
+libc, or included in a different form.
+
+* [`ft_substr`](Libft/ft_substr.c)        -allocates (with malloc(3)) and returns a substring from the string ’s’.
+* [`ft_strjoin`](Libft/ft_strjoin.c)      -Allocates (with malloc(3)) and returns a new string, which is the result of the concatenation of ’s1’ and ’s2’.
+* [`ft_atoi`](Libft/ft_atoi.c)
+* [`ft_atoi`](Libft/ft_atoi.c)
+* [`ft_atoi`](Libft/ft_atoi.c)
+* [`ft_atoi`](Libft/ft_atoi.c)
+* [`ft_atoi`](Libft/ft_atoi.c)
+* [`ft_atoi`](Libft/ft_atoi.c)
+* [`ft_atoi`](Libft/ft_atoi.c)
+* [`ft_atoi`](Libft/ft_atoi.c)
+* [`ft_atoi`](Libft/ft_atoi.c)
