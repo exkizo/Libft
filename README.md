@@ -8,7 +8,7 @@ manual. Your functions will need to present the same prototype and behaviors as 
 ft_strlen.
 
 ### #Include `<ctype.h>`
-* [`ft_isalpha`](Libft/blob/main/libft/ft_isalpha.c)			- checks  for  an alphabetic character.
+* [`ft_isalpha`](libft/ft_isalpha.c)			- checks  for  an alphabetic character.
 * [`ft_isdigit`](Libft/ft_isdigit.c)      - checks for a digit (0 through 9).
 * [`ft_isalnum`](Libft/ft_isalnum.c)      - it is equivalent to (isalpha(c) || isdigit(c)).
 * [`ft_isascii`](Libft/ft_isascii.c)      - checks whether c is a 7-bit unsigned char value that fits into the ASCII character set.
