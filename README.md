@@ -39,14 +39,31 @@ ft_strlen.
 In this second part, you must code a set of functions that are either not included in the
 libc, or included in a different form.
 
+### String manipulation
 * [`ft_substr`](Libft/ft_substr.c)        -allocates (with malloc(3)) and returns a substring from the string ’s’.
 * [`ft_strjoin`](Libft/ft_strjoin.c)      -allocates (with malloc(3)) and returns a new string, which is the result of the concatenation of ’s1’ and ’s2’.
 * [`ft_strtrim`](Libft/ft_strtrim.c)      -allocates memory and returns a copy of ’s1’ with the characters specified in ’set’ removed from the beginning and the end of the string.
 * [`ft_split`](Libft/ft_split)            -allocates (with malloc(3)) and returns an array of strings obtained by splitting ’s’ using the character ’c’ as a delimiter.
 * [`ft_itoa`](Libft/ft_itoa.c)            -allocates (with malloc(3)) and returns a string representing the integer received as an argument. Negative numbers must be handled.
-* [`ft_atoi`](Libft/ft_atoi.c)
-* [`ft_atoi`](Libft/ft_atoi.c)
-* [`ft_atoi`](Libft/ft_atoi.c)
-* [`ft_atoi`](Libft/ft_atoi.c)
-* [`ft_atoi`](Libft/ft_atoi.c)
-* [`ft_atoi`](Libft/ft_atoi.c)
+* [`ft_strmapi`](Libft/ft_strmapi.c)      -applies the function ’f’ to each character of the string ’s’ , and passing its index as first argument to create a new string (with malloc(3)) resulting from successive applications of ’f’.
+* [`ft_striteri`](Libft/ft_striteri.c)    -applies the function f to each character of the string passed as argument, and passing its index as first argument. Each character is passed by address to f to be modified if necessary
+
+### File descriptor
+* [`ft_putchar_fd`](Libft/ft_putchar_fd) -Outputs the character ’c’ to the given file descriptor.             -
+* [`ft_putstr_fd`](Libft/ft_putstr_fd.c) -Outputs the string ’s’ to the given file descriptor.
+* [`ft_putendl_fd`](Libft/ft_putendl_fd.c) -Outputs the string ’s’ to the given file descriptor, followed by a newline.
+* [`ft_putnbr_fd`](Libft/ft_putnbr_fd.c) -Outputs the integer ’n’ to the given file descriptor.
+
+## Bonus Part - Linked list functions
+* [`ft_lstadd_front`](Libft/ft_lstadd_front_bonus.c) -adds a new element in the list.
+* [`ft_lstnew`](Libft/ft_lstnew_bonus.c) -adds a new element on the beginning of the list.
+* [`ft_lstsize`](Libft/ft_lstsize_bonus.c) -counts the number of elements in a list.
+* [`ft_lstlast`](Libft/ft_lstlast_bonus.c) -return the last element of the end of the list.
+* [`ft_lstadd_back`](Libft/ft_lstadd_back_bonus.c) -adds a new element on the end of the list.
+* [`ft_lstdelone`](Libft/ft_lstdelone_bonus.c) -delete an element of the list.
+* [`ft_lstclear`](Libft/ft_lstclear_bonus.c) -delete an element of the list and every successor of that element.
+* [`ft_lstiter`](Libft/ft_lstiter_bonus.c) -iterates the list ’lst’ and applies the function ’f’ to the content of each element.
+* [`ft_lstmap`](Libft/ft_lstmap_bonus.c) -Iterates the list ’lst’ and applies the function ’f’ to the content of each element. creates a new list resulting of the successive applications of the function ’f’.
+
+
+
