@@ -43,7 +43,7 @@ libc, or included in a different form.
 * [`ft_substr`](libft/ft_substr.c)        -allocates (with malloc(3)) and returns a substring from the string ’s’.
 * [`ft_strjoin`](libft/ft_strjoin.c)      -allocates (with malloc(3)) and returns a new string, which is the result of the concatenation of ’s1’ and ’s2’.
 * [`ft_strtrim`](libft/ft_strtrim.c)      -allocates memory and returns a copy of ’s1’ with the characters specified in ’set’ removed from the beginning and the end of the string.
-* [`ft_split`](libft/ft_split)            -allocates (with malloc(3)) and returns an array of strings obtained by splitting ’s’ using the character ’c’ as a delimiter.
+* [`ft_split`](libft/ft_split.c)            -allocates (with malloc(3)) and returns an array of strings obtained by splitting ’s’ using the character ’c’ as a delimiter.
 * [`ft_itoa`](libft/ft_itoa.c)            -allocates (with malloc(3)) and returns a string representing the integer received as an argument. Negative numbers must be handled.
 * [`ft_strmapi`](libft/ft_strmapi.c)      -applies the function ’f’ to each character of the string ’s’ , and passing its index as first argument to create a new string (with malloc(3)) resulting from successive applications of ’f’.
 * [`ft_striteri`](libft/ft_striteri.c)    -applies the function f to each character of the string passed as argument, and passing its index as first argument. Each character is passed by address to f to be modified if necessary
