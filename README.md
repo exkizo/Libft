@@ -55,15 +55,15 @@ libc, or included in a different form.
 * [`ft_putnbr_fd`](libft/ft_putnbr_fd.c) -Outputs the integer ’n’ to the given file descriptor.
 
 ## Bonus Part - Linked list functions
-* [`ft_lstadd_front`](libft/ft_lstadd_front_bonus.c) -adds a new element in the list.
-* [`ft_lstnew`](libft/ft_lstnew_bonus.c) -adds a new element on the beginning of the list.
-* [`ft_lstsize`](libft/ft_lstsize_bonus.c) -counts the number of elements in a list.
-* [`ft_lstlast`](libft/ft_lstlast_bonus.c) -return the last element of the end of the list.
-* [`ft_lstadd_back`](libft/ft_lstadd_back_bonus.c) -adds a new element on the end of the list.
-* [`ft_lstdelone`](libft/ft_lstdelone_bonus.c) -delete an element of the list.
-* [`ft_lstclear`](libft/ft_lstclear_bonus.c) -delete an element of the list and every successor of that element.
-* [`ft_lstiter`](libft/ft_lstiter_bonus.c) -iterates the list ’lst’ and applies the function ’f’ to the content of each element.
-* [`ft_lstmap`](libft/ft_lstmap_bonus.c) -Iterates the list ’lst’ and applies the function ’f’ to the content of each element. creates a new list resulting of the successive applications of the function ’f’.
+* [`ft_lstadd_front`](libft/ft_lstadd_front.c) -adds a new element in the list.
+* [`ft_lstnew`](libft/ft_lstnew.c) -adds a new element on the beginning of the list.
+* [`ft_lstsize`](libft/ft_lstsize.c) -counts the number of elements in a list.
+* [`ft_lstlast`](libft/ft_lstlast.c) -return the last element of the end of the list.
+* [`ft_lstadd_back`](libft/ft_lstadd_back.c) -adds a new element on the end of the list.
+* [`ft_lstdelone`](libft/ft_lstdelone.c) -delete an element of the list.
+* [`ft_lstclear`](libft/ft_lstclear.c) -delete an element of the list and every successor of that element.
+* [`ft_lstiter`](libft/ft_lstiter.c) -iterates the list ’lst’ and applies the function ’f’ to the content of each element.
+* [`ft_lstmap`](libft/ft_lstmap.c) -Iterates the list ’lst’ and applies the function ’f’ to the content of each element. creates a new list resulting of the successive applications of the function ’f’.
 
 
 
